@@ -3,10 +3,10 @@
 }
 
 .btn-primary {
-  @apply bg-[#1C352D];
+  @apply bg-[#f7be27];
 }
 .btn-secondary {
-  @apply bg-[#A6B28B];
+  @apply bg-[#e3000e];
 }
 .btn-accent {
   @apply bg-[#F5C9B0];

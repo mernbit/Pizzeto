@@ -1,6 +1,26 @@
+* {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .d-container {
   @apply md:max-w-[80%] max-w-[95%] w-full mx-auto;
 }
 .auth-input {
   @apply p-2 rounded border w-full outline-0 focus:outline-0 my-2;
+}
+.animation {
+  @apply cursor-pointer my-2 transition-all duration-300  hover:text-amber-400 hover:translate-x-2;
+}
+
+.transition-300 {
+  @apply transition-all duration-300;
+}
+.transition-500 {
+  @apply transition-all duration-500;
+}
+.transition-700 {
+  @apply transition-all duration-700;
 }

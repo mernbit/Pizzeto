@@ -1,0 +1,6 @@
+.nav-smooth {
+  @apply absolute top-full left-0 bg-white w-[200px] ease-in-out shadow-lg rounded overflow-hidden;
+}
+.mob-smooth {
+  @apply bg-white w-full text-xl ease-in-out rounded overflow-hidden;
+}
