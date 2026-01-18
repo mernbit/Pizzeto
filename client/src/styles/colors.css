@@ -23,7 +23,7 @@
 /* Text Colors */
 
 .text-primary {
-  @apply text-[#1C352D];
+  @apply text-[#f7be27];
 }
 
 .text-secondary {
