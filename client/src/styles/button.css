@@ -15,5 +15,7 @@
   @apply bg-[#F9F6F3];
 }
 .btn-danger {
-  @apply bg-red-600;
+  @apply bg-red-500 hover:bg-white! border-red-500 border hover:text-red-500 uppercase px-7! py-2! mt-3 rounded-none! text-white;
 }
+
+/*  */

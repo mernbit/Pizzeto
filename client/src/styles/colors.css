@@ -9,7 +9,7 @@
 }
 
 .bg-accent {
-  @apply bg-[#F5C9B0];
+  @apply bg-[#642f21];
 }
 
 .bg-light {
@@ -31,7 +31,7 @@
 }
 
 .text-accent {
-  @apply text-[#F5C9B0];
+  @apply text-[#642f21];
 }
 
 .text-light {
@@ -40,4 +40,12 @@
 
 .text-danger {
   @apply text-red-600;
+}
+
+.text-purple {
+  @apply text-[#430490];
+}
+
+.text-light {
+  @apply text-[#F9F6F3];
 }
