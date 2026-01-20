@@ -1,3 +1,23 @@
+.menu-icon {
+  @apply w-8 cursor-pointer flex flex-col gap-[6px];
+}
+
+.line-menu {
+  @apply block h-[3px] bg-black transition-all duration-300;
+}
+
+.line-half {
+  @apply w-1/2;
+}
+
+.first-line {
+  @apply ml-auto;
+}
+
+.last-line {
+  @apply mr-auto;
+}
+
 .nav-smooth {
   @apply absolute top-full left-0 bg-white w-[200px] ease-in-out shadow-lg rounded overflow-hidden;
 }
