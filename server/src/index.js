@@ -4,6 +4,8 @@ const PORT = process.env.PORT || 8000;
 const connectDB = require("./db/db");
 connectDB();
 
+// General backend setup
+
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
