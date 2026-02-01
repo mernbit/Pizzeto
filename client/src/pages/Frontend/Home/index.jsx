@@ -7,6 +7,7 @@ import Promo from "./Promo";
 import Theme from "./Theme";
 import Menu from "./Menu";
 import Offer from "./Offer";
+import Categories from "./Categories";
 const Home = () => {
   return (
     <main>
@@ -15,6 +16,7 @@ const Home = () => {
       <Theme />
       <Menu />
       <Offer />
+      <Categories />
     </main>
   );
 };

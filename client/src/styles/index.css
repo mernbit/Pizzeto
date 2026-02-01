@@ -11,8 +11,13 @@
 }
 .font-lilita {
   font-family: "Lilita One", sans-serif !important;
-  font-weight: 500 !important;
-  font-style: normal !important;
+  font-weight: 500;
+  font-style: normal;
+}
+.font-lilita-light {
+  font-family: "Lilita One", sans-serif !important;
+  font-weight: 300;
+  font-style: normal;
 }
 
 #offer {

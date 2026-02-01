@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@import "../node_modules/@flaticon/flaticon-uicons/css/all/all.css";
 /* Self made utilities */
 @import "./styles/index.css";
 
@@ -11,3 +11,11 @@
 
 /* Navbar */
 @import "./styles/navbar.css";
+
+* {
+  background-image: url("./assets/images/") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
